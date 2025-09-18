@@ -3,7 +3,7 @@
   justify-content: center;
   gap: 1.5rem;
   padding: 2.5rem;
-  background: white;
+  background: linear-gradient(135deg, #fde29c, #fffcdc);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   margin: 2rem auto;

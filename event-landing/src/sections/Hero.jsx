@@ -9,11 +9,11 @@ const Hero = () => {
             <div className="hero-container">
                 <div className="hero-content">
                     <div className="hero-text">
-                        <h1>Comemoração de 15 anos do Meninas.Comp</h1>
+                        <h1>Um dia com o Meninas.Comp</h1>
                         <p>Junte-se a nós para celebrar o Girls.Comp Day em um dia repleto de atividades!</p>
                         <div className="hero-buttons">
                             <button className="btn-primary"><a href="https://www.computer.org/membership/juniors">Sobre o IEEE CS Junior</a></button>
-                            <button className="btn-secondary"><a href="https://www.computer.org/membership/juniors">Sobre o Meninas</a></button>
+                            <button className="btn-secondary"><a href="https://www.computer.org/membership/juniors">Sobre o Meninas.Comp</a></button>
                         </div>
                     </div>
                     <div className="hero-image">

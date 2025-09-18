@@ -8,10 +8,10 @@ const Header = () => {
             <nav className="nav">
                 <h2 className="logo">Girls.comp Day</h2>
                 <ul className="nav-links">
-                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#schedule">Programação</a></li>
-                    <li><a href="#organization">Organização</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#members">Organização</a></li>
+                    <li><a href="mailto:maristela.holanda@gmail.com">Contato</a></li>
                 </ul>
                 <div className="header-right">
                     <div className="logo-container">
