@@ -1,0 +1,65 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2.5rem;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 2rem auto;
+  width: 800px;
+}
+
+.countdown div {
+  text-align: center;
+  position: relative;
+  width: 200px;
+}
+
+.countdown div:not(:last-child)::after {
+  position: absolute;
+  right: -0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6c63ff;
+  background-image: "asset('/ondas.png')";
+}
+
+.countdown h2 {
+  font-size: 3.5rem;
+  color: #f4870a;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.countdown p {
+  font-size: 1.1rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .countdown {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .countdown div {
+    width: calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+  
+  .countdown div:not(:last-child)::after {
+    display: none;
+  }
+  
+  .countdown h2 {
+    font-size: 2.5rem;
+  }
+}
