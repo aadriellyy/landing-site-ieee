@@ -1,0 +1,29 @@
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex-wrap: wrap; 
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.icon {
+  font-size: 18px;
+  color: #6a0dad;
+}
