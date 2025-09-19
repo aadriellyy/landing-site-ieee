@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import logo from "../assets/logo-header.png";
+import logo from "../assets/logo-header.svg";
 
 const Header = () => {
     return (
@@ -8,9 +8,9 @@ const Header = () => {
             <nav className="nav">
                 <h2 className="logo">Girls.comp Day</h2>
                 <ul className="nav-links">
-                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="/">Sobre</a></li>
                     <li><a href="#schedule">Programação</a></li>
-                    <li><a href="#members">Organização</a></li>
+                    <li><a href="/membros">Organização</a></li>
                     <li><a href="mailto:maristela.holanda@gmail.com">Contato</a></li>
                 </ul>
                 <div className="header-right">
