@@ -11,6 +11,7 @@ const Header = () => {
                     <li><a href="/">Sobre</a></li>
                     <li><a href="#schedule">Programação</a></li>
                     <li><a href="/membros">Organização</a></li>
+                    <li><a href="/escolas">Escolas</a></li>
                     <li><a href="mailto:maristela.holanda@gmail.com">Contato</a></li>
                 </ul>
                 <div className="header-right">
