@@ -27,13 +27,14 @@ const Countdown = () => {
     }, [eventDate]);
 
     return (
-
-        <section className="countdown">
-            <div><h2>{timeLeft.days}<p>Dias</p></h2></div>
-            <div><h2>{timeLeft.hours}<p>Horas</p></h2></div>
-            <div><h2>{timeLeft.minutes}<p>Minutos</p></h2></div>
-            <div><h2>{timeLeft.seconds}<p>Segundos</p></h2></div>
-        </section>
+        <div className="countdown_div">
+            <section className="countdown">
+                <div><h2>{timeLeft.days}<p>Dias</p></h2></div>
+                <div><h2>{timeLeft.hours}<p>Horas</p></h2></div>
+                <div><h2>{timeLeft.minutes}<p>Minutos</p></h2></div>
+                <div><h2>{timeLeft.seconds}<p>Segundos</p></h2></div>
+            </section>
+        </div>
     );
 };
 

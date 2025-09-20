@@ -6,18 +6,18 @@ export default function TopInfoBar() {
     <div className="top-bar">
         
       <div className="info-box">
-        <span className="icon">📧</span>
-        <span>meninas.comp.df@gmail.com</span>
-      </div>
-
-      <div className="info-box">
         <span className="icon">📍</span>
-        <span>Universidade de Brasília - Campus Darcy Ribeiro, Brasília</span>
+        <p>Universidade de Brasília - Campus Darcy Ribeiro</p>
       </div>
 
       <div className="info-box">
-        <span className="icon">⏰</span>
-        <span>8:30 às 17:00</span>
+        <p className="icon">⏰</p>
+        <p> Horário 8:30 às 17:00</p>
+      </div>
+
+      <div className="info-box">
+        <p className="icon">📧</p>
+        <p>meninas.comp.df@gmail.com</p>
       </div>
     </div>
   );

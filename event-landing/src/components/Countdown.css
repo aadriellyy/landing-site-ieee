@@ -1,12 +1,21 @@
+.countdown_div {
+  display: flex;
+  background: linear-gradient(rgba(235, 192, 192, 0.5), rgba(249, 154, 154, 0.5)), url("../assets/wave.png");
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat; 
+ 
+}
+
+
 .countdown {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   padding: 2.5rem;
   background: linear-gradient(135deg, #fde29c, #fffcdc);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  margin: 2rem auto;
+  border-radius: 30px;
+  margin: 20px auto;
   width: 800px;
 }
 
@@ -24,7 +33,6 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: #6c63ff;
-  background-image: "asset('/ondas.png')";
 }
 
 .countdown h2 {
