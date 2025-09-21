@@ -5,7 +5,8 @@ import Countdown from './components/Countdown';
 import TopInfoBar from './components/TopInfoBar';
 import AboutEvent from './sections/AboutEvent';
 import Members from './sections/Members';
-import Footer from './components/Footer'
+import Program from './sections/Program';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
@@ -22,6 +23,7 @@ function App() {
               <Countdown />
               <TopInfoBar />
               <AboutEvent />
+              <Program />
               <Footer />
             </>
           }

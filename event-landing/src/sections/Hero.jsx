@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-// Importe a imagem que deseja usar no hero
 import heroImage from "../assets/gif-hero.gif";
 
 const Hero = () => {
