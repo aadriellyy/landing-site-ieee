@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-info">
-          <p>© 2025 Adrielly Lima e Ana Caroline Braz | Todos os direitos reservados</p>
+          <p>© 2025 <a href="https://www.linkedin.com/in/adrielly-lima-aa297a210">Adrielly Lima</a> e <a href="https://www.linkedin.com/in/anabraz26?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Ana Caroline Braz </a> | Todos os direitos reservados</p>
           <div className="footer-links">
             <a href="mailto:maristela.holanda@gmail.com">📧 Contato</a>
             <a href="https://www.instagram.com" target="_blank" rel="https://www.instagram.com/meninas.comp/">📸 Instagram</a>
