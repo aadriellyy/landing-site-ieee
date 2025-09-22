@@ -6,32 +6,31 @@ export default function ProgramsSection() {
 
     const apoiadores = [
       {
-        title: "Professora Alba Cristina Magalhaes Alves de Melo",
-        link: "https://cic.unb.br/professores/58-alves",
+        title: "CEM Santa Maria",
       },
       {
-        title: "Professor Ricardo Pezzuol Jacobi",
-        link: "https://www.cic.unb.br/professores/104-jacobi",
+        title: "Centro Educacional do Lago",
       },
       {
-        title: "Professor João José Gondim",
-        link:
-          "https://www.escavador.com/sobre/2919439/joao-jose-costa-gondim",
+        title: "CED Vargem Bonita",
       },
       {
-        title: "Professor Marcelo Mandelli",
-        link:
-          "https://cic.unb.br/professores/91-mgmandelli",
+        title: "CDELAN",
       },
       {
-        title: "Professora Genaina Nunes Rodrigues",
-        link:
-          "https://cic.unb.br/professores/79-genaina",
+        title: "CEM Recanto das Emas",
       },
       {
-        title: "Professor Marcos Fagundes Caetano",
-        link:
-          "https://cic.unb.br/professores/94-mfcaetano",
+        title: "CEM Paulo Freire",
+      },
+      {
+        title: "CEF 102 Norte",
+      },
+      {
+        title: "CEF 410 Norte",
+      },
+      {
+        title: "Escola Municipal Francisco Alan - Planaltina",
       },
     ];
 
@@ -44,7 +43,6 @@ export default function ProgramsSection() {
           <div className="apoiadores-card" key={index}>
             <div className="apoiadores-card-content">
               <h3>{member.title}</h3>
-              <button className="btn"><a href={member.link}>Saiba Mais</a></button>
             </div>
           </div>
         ))}

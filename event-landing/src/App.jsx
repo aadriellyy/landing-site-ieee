@@ -13,19 +13,30 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router>      
       <Routes>
         <Route
           path="/"
           element={
             <>
               <Header />
-              <Hero />
+               <Hero id="hero"/>
+
               <Countdown />
               <TopInfoBar />
-              <AboutEvent />
-              <Program />
-              <Escolas />
+
+              <section id="sobre">
+                <AboutEvent />
+              </section>
+
+              <section id="programacao">
+                <Program />
+              </section>
+
+              <section id="escolas">
+                <Escolas />
+              </section>
+
               <Footer />
             </>
           }

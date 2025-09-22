@@ -25,7 +25,7 @@ export default function ProgramsSection() {
     {
       title: "Maristela Holanda",
       description:
-        "Organizadora Geral.\nProfessora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
+        "Organizadora Geral. Professora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
       image: Maristela,  
       refName: "Entre em Contato"
     },
