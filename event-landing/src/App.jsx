@@ -6,6 +6,7 @@ import TopInfoBar from './components/TopInfoBar';
 import AboutEvent from './sections/AboutEvent';
 import Members from './sections/Members';
 import Program from './sections/Program';
+import Escolas from './sections/Escolas'
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -24,6 +25,7 @@ function App() {
               <TopInfoBar />
               <AboutEvent />
               <Program />
+              <Escolas />
               <Footer />
             </>
           }

@@ -23,7 +23,7 @@ export default function ProgramsSection() {
 
   const members = [
     {
-      title: "Maristela Terto de Holanda",
+      title: "Maristela Holanda",
       description:
         "Organizadora Geral.\nProfessora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
       image: Maristela,  
@@ -44,7 +44,7 @@ export default function ProgramsSection() {
       refName: "Saiba Mais"
     },
     {
-      title: "Carla Maria Chaves e Cavalcante Koike",
+      title: "Carla Koike",
       description:
         "Professora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
       image: Carla,
@@ -79,7 +79,7 @@ export default function ProgramsSection() {
 
     const apoiadores = [
       {
-        title: "Professor Alba Cristina Magalhaes Alves de Melo",
+        title: "Professora Alba Cristina Magalhaes Alves de Melo",
         link: "https://cic.unb.br/professores/58-alves",
       },
       {
@@ -97,7 +97,7 @@ export default function ProgramsSection() {
           "https://cic.unb.br/professores/91-mgmandelli",
       },
       {
-        title: "Professor Genaina Nunes Rodrigues",
+        title: "Professora Genaina Nunes Rodrigues",
         link:
           "https://cic.unb.br/professores/79-genaina",
       },

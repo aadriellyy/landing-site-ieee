@@ -20,7 +20,7 @@ const Program = () => {
                 <img src={agenda_robo} className="agenda" />                
             </div>
 
-
+            <hr class="border-t border-black"></hr>
         </section>
 
     );
