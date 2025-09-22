@@ -10,8 +10,7 @@
 .countdown {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  padding: 2.5rem;
+  padding: 0.6rem;
   background: linear-gradient(135deg, #fde29c, #fffcdc);
   border-radius: 30px;
   margin: 20px auto;

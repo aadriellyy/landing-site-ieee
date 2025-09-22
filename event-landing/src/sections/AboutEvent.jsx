@@ -3,7 +3,7 @@ import "./AboutEvent.css";
 
 export default function AboutEvent() {
   return (
-    <section id="sobre" className="about-event">
+    <section id="sobre" className="about-event">      
       <p className="subtitle">Um dia com o Meninas.Comp</p>
       <h1 className="title">
         Junte-se a nós para explorar todas as<br />

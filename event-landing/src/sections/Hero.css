@@ -10,7 +10,7 @@ html, body {
 }
 
 .hero {
-    height: 85vh;
+    height: 65vh;
     width: 100vw;
     background: linear-gradient(135deg, #ffd465, #fffcdc);
     padding: 2rem;

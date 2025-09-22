@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(135deg, #fde29c, #fffcdc);   
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.event_program {
+  text-align: center; 
+  max-width: 1000px;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+.agenda-container {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: center;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.agenda {
+  width: 360px;
+  height: auto;
+}
+
