@@ -383,3 +383,50 @@
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 480px) {
+  .members-grid,
+  .membersStudents-grid,
+  .membersVoluntarias-grid
+
+  {
+    grid-template-columns: 1fr; 
+    margin: 0 30px;
+    gap: 1.5rem;
+  }
+
+  .member-card img,
+  .memberStudents-card img,
+  .memberVoluntarias-card img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .members-title,
+  .membersStudents-title,
+  .membersVoluntarias-title {
+    font-size: 1.8rem;
+  }
+
+  .members-subtitle,
+  .membersStudents-subtitle,
+  .membersVoluntarias-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .apoiadores {
+    margin: 0;
+    padding: 0;
+  }
+
+  .apoiadores-grid {
+    grid-template-columns: 1fr; 
+    max-width: 140%;
+  }
+
+  .apoiadores-card .btn {
+    font-size: 0.8rem;
+
+  }
+}
