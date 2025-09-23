@@ -1,9 +1,9 @@
 import React from "react";
 import "../sections/Program.css";
-import agenda_palestra from "../assets/agenda_palestra.svg";
-import agenda_ia from "../assets/agenda_ia.svg";
-import agenda_cyber from "../assets/agenda_cyber.svg";
-import agenda_robo from "../assets/agenda_robotica.svg";
+import agenda_palestra from "../assets/agenda_palestras.png";
+import agenda_ia from "../assets/agenda_ia.png";
+import agenda_cyber from "../assets/agenda_cyber.png";
+import agenda_robo from "../assets/agenda_robo.png";
 
 const Program = () => {
     return(
@@ -20,7 +20,7 @@ const Program = () => {
                 <img src={agenda_robo} className="agenda" />                
             </div>
 
-            <hr class="border-t border-black"></hr>
+            <hr class="border-t border-black mt-20"></hr>
         </section>
 
     );

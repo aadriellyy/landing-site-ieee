@@ -76,3 +76,14 @@
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+
+/* Mobile */
+@media (max-width: 480px) {
+  .apoiadores-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    max-width: 1000px;         
+      
+  }
+
+}

@@ -48,3 +48,30 @@
   text-decoration: underline;
   color: #ff00dd;
 }
+
+/* 📱 Mobile */
+@media (max-width: 480px) {
+  .footer-container {
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    height: auto;             
+    padding: 1rem;
+  }
+
+  .footer-logo img {
+    height: 60px;  
+  }
+
+  .footer-info {
+    align-items: center; 
+  }
+
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+}
