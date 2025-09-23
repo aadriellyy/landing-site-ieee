@@ -32,20 +32,6 @@ p {
   color: #6a0dad;
 }
 
-/* Tablet */
-@media (max-width: 768px) {
-  .top-bar {
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .info-box {
-    flex: 1 1 calc(50% - 20px); /* 2 por linha */
-    max-width: 45%;
-  }
-}
-
-/* Celular */
 @media (max-width: 480px) {
   .top-bar {
     flex-direction: column;   
