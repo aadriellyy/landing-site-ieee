@@ -125,57 +125,92 @@ html, body {
     transform: scale(1.03);
 }
 
-
+/* Responsividade */
 @media (max-width: 968px) {
-    .hero{
-        display: block;        
-    }
-
-    .hero-text h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero-text h3{
-        margin-top: 30px;
+    .hero {
+        padding: 1.5rem;
+        height: auto;
+        min-height: 100vh;
+        display: flex;
     }
     
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+    }
+    
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        max-width: 250px;
+    }
     .hero-image img {
-        max-width: 300px;
+        max-width: 500px;
     }
 }
 
 @media (max-width: 768px) {
-    .hero{
-        display: block;        
-    }
-
-    .hero-text h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero-text h3{
-        margin-top: 30px;
+    .hero {
+        padding: 1.5rem;
+        height: auto;
+        min-height: 100vh;
     }
     
-    .hero-image img {
-        max-width: 300px;
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        max-width: 250px;
     }
 }
 
 @media (max-width: 480px) {
-    .hero{
-        display: block;        
-    }
+  .hero-content{
+    display: flex;
+    flex-direction: column;   
+    margin: 0;
+    align-items: center;      
+    text-align: center;       
+  }
 
-    .hero-text h1 {
-        font-size: 1.8rem;
-    }
+  .hero-text h1 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    align-items: center;      
+    text-align: center;    
+  }
 
-    .hero-text h3{
-        margin-top: 30px;
-    }
-    
-    .hero-image img {
-        max-width: 300px;
-    }
+  .hero-text h3 {
+    margin-top: 15px;
+    font-size: 1rem;
+    align-items: center;      
+    text-align: center;    
+  }
+
+  .hero-text p{
+    align-items: center;      
+    text-align: center;    
+  }
+
+  .hero-image img {
+    max-width: 400px;   /* ocupa quase toda a largura do celular */
+    height: auto;
+  }
 }
