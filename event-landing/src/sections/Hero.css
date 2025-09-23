@@ -111,7 +111,7 @@ html, body {
 .hero-image {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* Alinha a imagem à direita */
+    justify-content: flex-end; 
 }
 
 .hero-image img {
@@ -125,4 +125,69 @@ html, body {
     transform: scale(1.03);
 }
 
+@media (max-width: 480px) {
+    .hero {
+        height: auto; 
+        padding: 1.5rem 1rem;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    .hero-content {
+        flex-direction: column; 
+        gap: 1.5rem;
+    }
+
+    .hero-text {
+        text-align: center; 
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .hero-text h3 {
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column; /* botões um abaixo do outro */
+        gap: 0.8rem;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%; /* ocupa largura toda */
+        font-size: 1rem;
+        padding: 0.8rem 1.2rem;
+    }
+
+    .hero-image {
+        justify-content: center; /* centraliza imagem */
+        margin-top: 1rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 280px; /* limita para caber no mobile */
+        height: auto;
+    }
+}
