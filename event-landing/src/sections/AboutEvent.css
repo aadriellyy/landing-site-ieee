@@ -73,7 +73,7 @@ body {
 @media (max-width: 480px) {
   .about-event {
     text-align: center; 
-    margin: 0;
+    margin: 20px auto;
   }
 
   .title {
@@ -81,7 +81,6 @@ body {
     font-weight: bold;
     color: #222;
     line-height: 1.4;
-    margin-bottom: 20px;
   }
 
   .subtitle {
