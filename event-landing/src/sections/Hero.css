@@ -125,62 +125,6 @@ html, body {
     transform: scale(1.03);
 }
 
-/* Responsividade */
-@media (max-width: 968px) {
-    .hero {
-        padding: 1.5rem;
-        height: auto;
-        min-height: 100vh;
-        display: flex;
-    }
-    
-    .hero-text h1 {
-        font-size: 2.2rem;
-    }
-    
-    .hero-text p {
-        font-size: 1.1rem;
-    }
-    
-    .hero-buttons {
-        flex-direction: column;
-    }
-    
-    .btn-primary, .btn-secondary {
-        width: 100%;
-        max-width: 250px;
-    }
-    .hero-image img {
-        max-width: 500px;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero {
-        padding: 1.5rem;
-        height: auto;
-        min-height: 100vh;
-    }
-    
-    .hero-text h1 {
-        font-size: 2.2rem;
-    }
-    
-    .hero-text p {
-        font-size: 1.1rem;
-    }
-    
-    .hero-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn-primary, .btn-secondary {
-        width: 100%;
-        max-width: 250px;
-    }
-}
-
 @media (max-width: 480px) {
   .hero-content{
     display: flex;
