@@ -32,19 +32,74 @@ h2 {
   height: auto;
 }
 
-/* Tablet */
-@media (max-width: 768px) {
-  .about-event {
-    padding: 20px;  /* menos espaço lateral */
-  }
-  
-  .title {
+@media (max-width: 1400px){
+    h2 {
     font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
   }
 
-  .description {
-    font-size: 16px;
+  .agenda-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    max-width: 100px;
+    margin: 20px auto;
+    gap: 30px;
   }
+
+  .agenda {
+      width: 200px;
+      height: auto;
+    }
+}
+
+@media (max-width: 968px) {
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+  }
+
+  .agenda-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    max-width: 100px;
+    margin: 20px auto;
+    gap: 30px;
+  }
+
+  .agenda {
+      width: 200px;
+      height: auto;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+  }
+
+  .agenda-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    max-width: 100px;
+    margin: 20px auto;
+    gap: 30px;
+  }
+
+  .agenda {
+      width: 200px;
+      height: auto;
+    }
 }
 
 /* Mobile */

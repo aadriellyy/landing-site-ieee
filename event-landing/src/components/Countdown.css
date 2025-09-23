@@ -72,6 +72,29 @@
 }
 
 /* Mobile */
+@media (max-width: 768px) {
+  .countdown {
+    flex-direction: column;  
+    width: 20%;   
+    margin: 10px auto;            
+  }
+
+  .countdown div {
+    width: auto;             
+    min-width: 100px;
+  }
+
+  .countdown h2 {
+    font-size: 2rem;
+  }
+
+  .countdown p {
+    font-size: 0.9rem;
+    margin: 0;               
+  }
+}
+
+/* Mobile */
 @media (max-width: 480px) {
   .countdown {
     flex-direction: column;  
