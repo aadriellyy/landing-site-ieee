@@ -8,7 +8,7 @@ p {
   justify-content: center;
   gap: 25px;
   padding: 25px;
-  background-color: #fff;
+  background: linear-gradient(135deg, #fde29c, #fffcdc);   
 }
 
 .info-box {

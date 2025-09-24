@@ -239,7 +239,7 @@ export default function ProgramsSection() {
     {
       title: "Fernanda Marques",
       description:
-        "Estudante na Universidade de Brasília (UnB).",
+        "Estudante de Ciência da Computação na Universidade de Brasília (UnB).",
       image: Fernanda,
       link: "https://www.linkedin.com/in/fernanda-marques-pereira001/",
     },
