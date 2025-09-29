@@ -1,13 +1,21 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../assets/logo-footer.png"
+import apoio from "../assets/apoio.png"
+import realizacao from "../assets/realizacao.png"
 
 export default function Footer() {
   return (
     <footer className="footer">
+      
       <div className="footer-container">
+        <div className="footer-logo2">
+          <h3>Realização:</h3>
+          <img src={realizacao} alt="Logo Meninas.Comp e CIC" />
+        </div>
+
         <div className="footer-logo">
-          <img src={logo} alt="Logo Meninas.Comp" />
+          <h3>Apoio:</h3>
+          <img src={apoio} alt="Logo IEEE, Meninas digitais e Mulheres do brasil" />
         </div>
 
         <div className="footer-info">
@@ -18,7 +26,9 @@ export default function Footer() {
             <a href="https://www.linkedin.com" target="_blank" rel="https://www.linkedin.com/company/meninas-comp/posts/?feedView=all">💼 LinkedIn</a>
           </div>
         </div>
+
       </div>
+
     </footer>
   );
 }

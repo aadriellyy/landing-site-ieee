@@ -6,7 +6,7 @@ export default function ProgramsSection() {
 
     const apoiadores = [
       {
-        title: "CEM Santa Maria",
+        title: "CEM 310 Santa Maria",
       },
       {
         title: "Centro Educacional do Lago",
@@ -18,7 +18,7 @@ export default function ProgramsSection() {
         title: "CDELAN",
       },
       {
-        title: "CEM Recanto das Emas",
+        title: "CEM 111 Recanto das Emas",
       },
       {
         title: "CEM Paulo Freire",

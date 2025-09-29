@@ -1,37 +1,37 @@
 import React from "react";
 import "./Members.css";
-import Carol from "../assets/ana-caroline.jpg";
-import Luana from "../assets/luana.jpg";
-import Maristela from "../assets/maristela.png";
-import Aleteia from "../assets/aleteia.png";
-import MariaEmilia from "../assets/maria-emilia.png";
-import Adrielly from "../assets/adrielly.png";
-import Carla from "../assets/carla.png";
-import Bianca from "../assets/Bianca.jpg";
-import Sabrina from "../assets/Sabrina.jpg";
-import Lidia from "../assets/Lidia.png";
-import AnaClara from "../assets/Ana-Clara-Borges.jpg";
-import Camille from "../assets/camille.webp";
-import Laryssa from "../assets/Laryssa_Ferreira.jpeg";
-import Cecilia from "../assets/Maria_Cecilia.jpg";
-import Natalia from "../assets/Natalia.jpg";
-import Samara from "../assets/samara.JPG";
-import Daniely from "../assets/daniely.png";
-import Julia from "../assets/julia.png";
-import Camila from "../assets/Camila_Sousa.jpg";
-import Emily from "../assets/emily.jpg";
-import Erica from "../assets/Erica_Feitosa.jpg";
-import EricaTawany from "../assets/Erica_Tawany.jpg";
-import Fernanda from "../assets/Fernanda_Marques.jpeg";
-import Giovanna from "../assets/GiovannaFelipe.jpg";
-import Gisele from "../assets/Gisele_Cristine.jpg";
-import Isabela_Souza from "../assets/Isabela_Souza.jpg";
-import Marcia from "../assets/Marcia_Vieira.jpg";
-import Marjorie from "../assets/MarjorieMitzi.jpg";
-import Mavi from "../assets/mavi.jpg";
-import Michele from "../assets/Michele_Mukaihata.jpeg";
-import Olivia from "../assets/Olivia_Martins.jpg";
-import AnaBeatriz from "../assets/ana-beatriz.png";
+import Carol from "../assets/pessoas/ana-caroline.jpg";
+import Luana from "../assets/pessoas/luana.jpg";
+import Maristela from "../assets/pessoas/maristela.png";
+import Aleteia from "../assets/pessoas/aleteia.png";
+import MariaEmilia from "../assets/pessoas/maria-emilia.png";
+import Adrielly from "../assets/pessoas/adrielly.png";
+import Carla from "../assets/pessoas/carla.png";
+import Bianca from "../assets/pessoas/Bianca.jpg";
+import Sabrina from "../assets/pessoas/Sabrina.jpg";
+import Lidia from "../assets/pessoas/Lidia.png";
+import AnaClara from "../assets/pessoas/Ana-Clara-Borges.jpg";
+import Camille from "../assets/pessoas/camille.webp";
+import Laryssa from "../assets/pessoas/Laryssa_Ferreira.jpeg";
+import Cecilia from "../assets/pessoas/Maria_Cecilia.jpg";
+import Natalia from "../assets/pessoas/Natalia.jpg";
+import Samara from "../assets/pessoas/samara.JPG";
+import Daniely from "../assets/pessoas/daniely.png";
+import Julia from "../assets/pessoas/julia.png";
+import Camila from "../assets/pessoas/Camila_Sousa.jpg";
+import Emily from "../assets/pessoas/emily.jpg";
+import Erica from "../assets/pessoas/Erica_Feitosa.jpg";
+import EricaTawany from "../assets/pessoas/Erica_Tawany.jpg";
+import Fernanda from "../assets/pessoas/Fernanda_Marques.jpeg";
+import Giovanna from "../assets/pessoas/GiovannaFelipe.jpg";
+import Gisele from "../assets/pessoas/Gisele_Cristine.jpg";
+import Isabela_Souza from "../assets/pessoas/Isabela_Souza.jpg";
+import Marcia from "../assets/pessoas/Marcia_Vieira.jpg";
+import Marjorie from "../assets/pessoas/MarjorieMitzi.jpg";
+import Mavi from "../assets/pessoas/mavi.jpg";
+import Michele from "../assets/pessoas/Michele_Mukaihata.jpeg";
+import Olivia from "../assets/pessoas/Olivia_Martins.jpg";
+import AnaBeatriz from "../assets/pessoas/ana-beatriz.png";
 
 export default function ProgramsSection() {
 
@@ -41,7 +41,7 @@ export default function ProgramsSection() {
       description:
         "Organizadora Geral. Professora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
       image: Maristela,  
-      refName: "Entre em Contato"
+      refName: "Saiba Mais"
     },
     {
       title: "Maria Emília Walter",
