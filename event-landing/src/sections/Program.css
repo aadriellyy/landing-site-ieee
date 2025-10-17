@@ -71,23 +71,41 @@
   font-style: italic;
 }
 
+
 /* Responsivo */
 @media (max-width: 768px) {
   .schedule-container {
-    width: 95%;
+    padding: 10px;
+    max-width: 100%;
   }
 
   .schedule-card {
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
     gap: 6px;
+    padding: 14px 16px;
   }
 
   .schedule-time {
-    font-size: 0.9rem;
+    flex: 0 0 10px;
+    font-weight: bold;
+    color: #f4870a;
+    font-size: 0.95rem;
+  }
+}
+
+/* Telas muito pequenas */
+@media (max-width: 480px) {
+  .schedule-card {
+    width: 50%;
+    padding: 12px;
   }
 
-  .schedule-title {
+  .schedule-time {
+    flex: 0 0 10px;
+    font-weight: bold;
+    color: #f4870a;
     font-size: 0.95rem;
   }
 }
