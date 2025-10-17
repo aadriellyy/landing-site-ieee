@@ -32,6 +32,7 @@ import Mavi from "../assets/pessoas/mavi.jpg";
 import Michele from "../assets/pessoas/Michele_Mukaihata.jpeg";
 import Olivia from "../assets/pessoas/Olivia_Martins.jpg";
 import AnaBeatriz from "../assets/pessoas/ana-beatriz.png";
+import LeticiaLopes from "../assets/pessoas/leticia.png";
 
 export default function ProgramsSection() {
 
@@ -62,6 +63,13 @@ export default function ProgramsSection() {
       description:
         "Professora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
       image: Carla,
+      refName: "Saiba Mais"
+    },
+    {
+      title: "Letícia L. Leite",
+      description:
+        "Professora do Departamento de Ciência da Computação da Universidade de Brasília (UnB).",
+      image: LeticiaLopes,
       refName: "Saiba Mais"
     },
 ];
