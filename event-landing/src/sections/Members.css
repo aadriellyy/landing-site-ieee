@@ -1,5 +1,4 @@
 .members {
-  padding: 4rem 2rem;
   text-align: center;
   background: #ffffff;
 }
@@ -23,8 +22,8 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   justify-content: center; 
-  max-width: 2000px;    
-  margin: 0 250px; 
+  max-width: 3000px;    
+  margin: 0 125px; 
 }
 
 .member-card {
