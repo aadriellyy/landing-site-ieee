@@ -224,9 +224,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  justify-content: center;    
-  max-width: 1080px;          
-  margin: 0 auto;             
+  justify-content: center; 
+  max-width: 3000px;          
+  margin: 0 200px;          
 }
 
 .memberVoluntarias-card {
