@@ -37,6 +37,7 @@ body {
   text-align: justify;
 }
 
+
 @media (max-width: 480px) {
   .about-event {
     text-align: center; 

@@ -16,6 +16,8 @@ export default function AboutEvent() {
         e pelo Campus da Universidade de Brasília. Todas as atividades serão conduzidas por mulheres
         inspiradoras que atuam na área de tecnologia, proporcionando um ambiente acolhedor e motivador.
       </p>
+
     </section>
+
   );
 }
