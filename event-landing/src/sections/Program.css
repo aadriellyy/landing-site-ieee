@@ -98,7 +98,7 @@
 /* Telas muito pequenas */
 @media (max-width: 480px) {
   .schedule-card {
-    width: 50%;
+    width: 100%;
     padding: 12px;
   }
 
