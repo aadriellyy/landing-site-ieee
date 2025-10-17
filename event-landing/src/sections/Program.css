@@ -99,7 +99,7 @@
 @media (max-width: 480px) {
   .schedule-card {
     width: 100%;
-    padding: 12px;
+    padding: 12px 12px;
   }
 
   .schedule-time {
