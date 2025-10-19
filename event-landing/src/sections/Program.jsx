@@ -4,7 +4,7 @@ import "../sections/Program.css";
 const eventSchedule = [
   { time: "8:30 - 9:00", title: "Credenciamento com Café da Manhã", local: "Departamento de Ciência da Computação - UnB" },
   { time: "9:00 - 9:15", title: "Abertura", local: "Departamento de Ciência da Computação - UnB" },
-  { time: "9:15 - 10:00", title: "Painel: Alunas da Graduação - Os 7 cursos que envolvem Computação na UnB", local: "Departamento de Ciência da Computação - UnB" },
+  { time: "9:15 - 10:00", title: "Painel: Alunas da Graduação - Os 6 cursos que envolvem Computação na UnB", local: "Departamento de Ciência da Computação - UnB" },
   { time: "10:00 - 10:45", title: "Painel: Profissionais da Computação", local: "Departamento de Ciência da Computação - UnB" },
   { time: "10:45 - 11:20", title: "Visita à Exposição de Projetos", local: "Departamento de Ciência da Computação - UnB" },
   { time: "11:20 - 11:30", title: "Caminhada do Departamento de Ciência da Computação para o RU", local: "Saída do Departamento de Ciência da Computação para o RU" },
