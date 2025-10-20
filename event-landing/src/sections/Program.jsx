@@ -6,11 +6,9 @@ const eventSchedule = [
   { time: "9:00 - 9:15", title: "Abertura", local: "Departamento de Ciência da Computação - UnB" },
   { time: "9:15 - 10:00", title: "Painel: Alunas da Graduação - Os 6 cursos que envolvem Computação na UnB", local: "Departamento de Ciência da Computação - UnB" },
   { time: "10:00 - 10:45", title: "Painel: Profissionais da Computação", local: "Departamento de Ciência da Computação - UnB" },
-  { time: "10:45 - 11:20", title: "Visita à Exposição de Projetos", local: "Departamento de Ciência da Computação - UnB" },
-  { time: "11:20 - 11:30", title: "Caminhada do Departamento de Ciência da Computação para o RU", local: "Saída do Departamento de Ciência da Computação para o RU" },
+  { time: "10:45 - 11:20", title: "Exposição de Projetos", local: "Departamento de Ciência da Computação - UnB" },
   { time: "11:30 - 13:15", title: "Almoço", local: "Restaurante Universitário - UnB" },
   { time: "13:30 - 15:30", title: "Oficinas de robótica, segurança cibernética, Inteligência Artificial e Programação", local: "Laboratório de Informática da UnB (LINF)" },
-  { time: "15:30 - 15:40", title: "Saída do LINF para o Departamento de Ciência da Computação", local: "Caminhada" },
   { time: "15:40 - 16:30", title: "Coffee-Break, Aniversário Meninas.comp e Encerramento", local: "Hall inferior do Departamento de Ciência da Computação - UnB" },
 ];
 
