@@ -22,7 +22,6 @@ function App() {
               <Header />
                <Hero id="hero"/>
 
-              <Countdown />
               <TopInfoBar />
 
               <section id="sobre">
