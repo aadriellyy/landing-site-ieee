@@ -1,7 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .members {
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(135deg, #fde29c, #fffcdc);
+  background: linear-gradient(135deg, #fde29c, #fffcdc);  
 }
 
 .members-title {
