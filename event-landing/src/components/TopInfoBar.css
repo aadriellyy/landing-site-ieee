@@ -32,6 +32,16 @@ p {
   color: #6a0dad;
 }
 
+.banner-img {
+  width: 60%;
+  height: 490px;
+  object-fit: cover;
+  object-position: 50% 38%;
+  border-radius: 14px;
+  margin: 25px auto;
+  display: block;
+}
+
 @media (max-width: 480px) {
   .top-bar {
     flex-direction: column;   

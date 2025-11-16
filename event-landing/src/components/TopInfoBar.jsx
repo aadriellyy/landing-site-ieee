@@ -1,10 +1,11 @@
 import React from "react";
 import "./TopInfoBar.css";
+import foto_oficial from "../assets/geral.jpeg"
 
 export default function TopInfoBar() {
   return (
+    <div>
     <div className="top-bar">
-        
       <div className="info-box">
         <span className="icon">📍</span>
         <p>Universidade de Brasília - Campus Darcy Ribeiro</p>
@@ -20,5 +21,8 @@ export default function TopInfoBar() {
         <p>meninas.comp.df@gmail.com</p>
       </div>
     </div>
+
+    <img src={foto_oficial} alt="Meninas.Comp" className="banner-img" />
+  </div>
   );
 }
