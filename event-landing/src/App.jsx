@@ -8,6 +8,7 @@ import Members from './sections/Members';
 import Program from './sections/Program';
 import Escolas from './sections/Escolas'
 import Footer from './components/Footer';
+import Oficinas from './sections/Oficinas';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
@@ -46,6 +47,16 @@ function App() {
             <>
               <Header />
               <Members />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/oficinas"
+          element={
+            <>
+              <Header />
+              <Oficinas />
               <Footer />
             </>
           }

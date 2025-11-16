@@ -14,6 +14,7 @@ const Header = () => {
                     <li><ScrollLink to="programacao">Programação</ScrollLink></li>
                     <li><RouterLink to="/membros">Organização</RouterLink></li>
                     <li><ScrollLink to="escolas">Escolas</ScrollLink></li>
+                    <li><RouterLink to="/oficinas">Oficinas</RouterLink></li>
                     <li><a href="mailto:meninas.comp.df@gmail.com">Contato</a></li>
                 </ul>
 

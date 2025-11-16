@@ -1,0 +1,105 @@
+/* --- Estilos Gerais do Container --- */
+#root {
+    width: 100%;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.oficinas-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 20px; 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #fde29c, #fffcdc);   
+}
+
+.titulo-principal {
+    color: #f4870a;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.descricao {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #6c757d;
+    font-size: 1.1em;
+}
+
+/* --- Estilos do Grid de Oficinas --- */
+.oficinas-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 100%;  /* opcional */
+    margin: 0;     /* centraliza sem recuar */
+    padding: 0 20px;    /* opcional */
+}
+
+
+/* --- Estilos do Cartão Individual da Oficina --- */
+.cartao-oficina {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08); /* Sombra mais suave */
+    transition: transform 0.3s ease-in-out;
+}
+
+.cartao-oficina:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+}
+
+.titulo-oficina {
+    color: #f4870a;
+    border-bottom: 3px solid #f4870a;;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.subtitulo-oficina {
+    color: #495057;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+/* --- Estilos da Galeria de Fotos --- */
+.fotos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foto-momento {
+    width: 100%;
+    max-width: 320px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid #f0f0f0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.foto-momento:hover {
+    border-color: #007bff;
+    opacity: 0.9;
+}
+
+/* --- Media Queries (Responsividade) --- */
+
+
+@media (min-width: 1024px) {
+    .fotos-container {
+        justify-content: flex-start; /* Alinha as fotos à esquerda em telas grandes */
+    }
+}
+
