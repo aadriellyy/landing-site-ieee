@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutEvent.css";
-import girlscomp from "../assets/brindes.jpeg"
+import girlscomp from "../assets/banner.png"
 
 export default function AboutEvent() {
   return (
